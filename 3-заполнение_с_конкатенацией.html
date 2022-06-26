@@ -10,8 +10,13 @@
 <body>
 
 	<script>
+		'use strict';
+
 		let totalString = "";
 
+		for (let i = 1; i < 4; i++) {
+			totalString = totalString + 'слово' + i;
+		}
 		/* Задание.
 		Дописывайте в строку totalString с помощью цикла и конкатенации строки,
 		так, чтобы итоговое значение в totalString получилось: слово1слово2слово3
